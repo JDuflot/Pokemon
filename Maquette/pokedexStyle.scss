@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(219, 64, 64, 0.74);
+    height: 10vh;
+
+   
+}
+
+$img-size: 100px;
+$font-size:16px;
+$font-color:white;
+// $font-align:{text-align:center};
+
+
+div.container {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+
+
+    
+} .pokemon img{
+    width: 180px;
+}
+.pokemon {
+    text-align: center;
+    color: $font-color;
+    width: 45%;
+    border-radius: 15px;
+    border: 1px solid red;
+
+}
